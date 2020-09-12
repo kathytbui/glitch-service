@@ -13,6 +13,7 @@ gem 'fast_jsonapi'
 gem 'rack'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'travis'
+gem 'rspec'
 
 group :test do
   gem 'rspec'
