@@ -1,6 +1,3 @@
-require './spec/test_helper'
-Dotenv.load
-
 class GlitchService < Sinatra::Base
   before do
     content_type 'application/json'

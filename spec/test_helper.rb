@@ -14,3 +14,4 @@ require './services/deep_service'
 require './facades/image_facade'
 require './serializers/image_serializer'
 require './app.rb'
+Dotenv.load

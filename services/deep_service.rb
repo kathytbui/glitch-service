@@ -1,5 +1,3 @@
-Dotenv.load
-
 class DeepService
   def self.get_image(keywords)
     response = conn.post '/api/text2img' do |req|

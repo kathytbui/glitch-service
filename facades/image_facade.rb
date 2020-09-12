@@ -1,5 +1,3 @@
-Dotenv.load
-
 class ImageFacade
   def self.images(keywords)
     images = []
