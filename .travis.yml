@@ -1,4 +1,4 @@
-langauge: ruby
+language: ruby
 rbenv:
 - 2.5.3
 deploy:
@@ -8,7 +8,6 @@ deploy:
   app: glitch-service
   on:
     repo: Kathybui732/glitch-service
-  skip_cleanup: 'true'
 env:
   global:
   - secure: bg3DjgyK4CPk/h0hs9+5RmBqiQimuAiL2tQ3LVESv7NHigq36bWsQTD6OaXrOEJH7aXi0CC4blJAw9PWcVtrBsJc8HD4vb1XQCQPlibOZL9IVfZzQgo5IlPKzkfZwe3SA7xlApXqN82k4pQXzbFEbq+dHGCMaSd9y71JUt1MoLQd6RRba4QPqaPgITlkdk8sXrFnzF9mTPZVk5MoS5Dfu03QEztvINt1CotTdXAN7EOhzbgyafTOEcEsEvsQjKKvPtzl6X6E5ybqI8f9QRjHPHluOytMfMJMxzOMEFRJOmDvUrzPosI++pJVlFnWFcarrG/iIgBDFF2aCdpGEMGUaHTkLbAe0sFcHVB5ETFBQxo97cqmut3DzUWPbny3tuXzMKbW+kVwvUz9drU7iD07fRHPevuOeAzQrOl/nG55sK3ONXnLAjLK4knV+WmJ9oxg6xRDywSpPrX/2Hv7avgp3fu065b7jSqPmD5SsV7zIvwfiRMRIpPRORUXLErghlXhLNx1Xgy72Mu/ziOyfGK6xgBdVpHbIY/wHjVHqA46JC1CN+CnYm1zLx0YueYziNdCRqO/GrBoFkzrfPSZkQsd0Uux/EAorFenJIvMSRsQUqKkOssDrJTps4qNq0fVqm+gEY676GbhZpt3vw9MBWvovFeqr247SUfgHJRu+vCG1rE=
