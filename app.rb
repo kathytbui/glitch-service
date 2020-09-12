@@ -1,6 +1,6 @@
 require "./spec/test_helper"
 
-class GlitchService < Sinatra::Base
+# class GlitchService < Sinatra::Base
   before do
     content_type 'application/json'
   end
@@ -12,4 +12,4 @@ class GlitchService < Sinatra::Base
   get '/images/:keywords' do
     ImageSerializer.new(ImageFacade.images(params[:keywords])).serialized_json
   end
-end
+# end
