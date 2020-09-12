@@ -1,4 +1,4 @@
-require "test_helper"
+require "./spec/test_helper"
 
 class GlitchService < Sinatra::Base
   before do
