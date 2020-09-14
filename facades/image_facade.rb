@@ -1,5 +1,5 @@
-require "./services/deep_image"
-require "./services/pixabay_image"
+require "./services/deep_service"
+require "./services/pixabay_service"
 require "./poros/image"
 
 class ImageFacade

@@ -1,4 +1,5 @@
 require "faraday"
+require "json"
 
 class DeepService
   def self.get_image(keywords)
