@@ -1,6 +1,7 @@
 require 'sinatra/base'
-require './facades/image_facade'
-require './serializers/image_serializer'
+require 'facades/image_facade'
+require 'serializers/image_serializer'
+require 'rack'
 Dotenv.load
 
 class GlitchService < Sinatra::Base
