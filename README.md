@@ -22,5 +22,21 @@ DEEP_API_KEY="[you api key here]"
 PIXABAY_API_KEY="[you api key here]"
 ```
 
+## Test Suite
+Run `bundle exec rspec`
+
 ## Example endpoint
 ![search endpoint for 'strawberries'](https://i.imgur.com/AtpsQGf.png)
+
+## Contributors
+[Dan Sehl's GitHub](https://github.com/dtsehl) &
+[Linkedin](https://www.linkedin.com/in/danielsehl)
+
+[Jane Greene's Github](https://github.com/janegreene) &
+[Linkedin](https://www.linkedin.com/in/jane-greene-mba/)
+
+[Kathy Bui's Github](https://github.com/Kathybui732) &
+[Linkedin](https://www.linkedin.com/in/kathy-bui-87a27a1ab/)
+
+[Dorion's GitHub]() &
+[Linkedin]()
