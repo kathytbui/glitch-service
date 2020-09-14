@@ -9,8 +9,8 @@ Ruby 2.5.3
 Sinatra 2.1.0
 
 ## Configuration
-1. git clone git@github.com:Kathybui732/glitch-service.git
-2. cd glitch-service
+1. Run `git clone git@github.com:Kathybui732/glitch-service.git`
+2. `cd glitch-service`
 3. bundle install
 4. Add API keys to .env file (follow instructions below)
 
