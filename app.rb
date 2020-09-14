@@ -12,7 +12,16 @@ class GlitchService < Sinatra::Base
   end
 
   get '/' do
-    'Hello world'
+    'Welcome to GlitchService
+
+  To use the service, simply edit the path in the URL as follows:
+  Add a "/images/{your search keyword}" to the end of the URL in the address bar.
+
+  Example: https://damp-forest-93176.herokuapp.com/images/strawberry'
+  end
+
+  get '/images' do
+    redirect_to '/'
   end
 
   get '/images/:keywords' do
