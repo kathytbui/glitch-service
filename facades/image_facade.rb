@@ -1,3 +1,7 @@
+require "./services/deep_image"
+require "./services/pixabay_image"
+require "./poros/image"
+
 class ImageFacade
   def self.images(keywords)
     images = []

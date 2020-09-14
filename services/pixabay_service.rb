@@ -1,3 +1,5 @@
+require "faraday"
+
 class PixabayService
   def self.get_image(keywords)
     json = JSON.parse(response(keywords).body, symbolize_names: true)
