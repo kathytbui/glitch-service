@@ -1,6 +1,8 @@
-# glitch-service
+# GlitchService
 
-GlitchService is a microservice using a Sinatra framework to expose a consilidated endpoint with two images based off a keyword search. The images are drawing from two API's [Pixabay]() and [DeepAI]().
+GlitchService is a microservice using a Sinatra framework to expose a consilidated endpoint with two images based off a keyword search. The images are drawing from two API's: [Pixabay](https://pixabay.com/) and [DeepAI](https://deepai.org/machine-learning-model/text2img). Pixabay returns an image based of relevant image tags created by users, whereas DeepAI utilizes a Text2Image AI to generate an image from scratch based off any given text. GlitchService works to consilidate these searches to return two images each in a single enpoint.
+
+Checkout [GlitchCraft](https://glitch-craft.herokuapp.com/) to see how this service is used!
 
 ## Versions
 Ruby 2.5.3
@@ -11,3 +13,14 @@ Sinatra 2.1.0
 2. cd glitch-service
 3. bundle install
 4. Add API keys to .env file (follow instructions below)
+
+## API KEYS
+1. Follow the documentation from the [Deep AI Docs](https://deepai.org/api-docs) and the [Pixabay Docs] to obtain api keys
+2. Add the keys to the .env file in the following format:
+```ruby
+DEEP_API_KEY="[you api key here]"
+PIXABAY_API_KEY="[you api key here]"
+```
+
+## Example endpoint
+![search endpoint for 'strawberries'](https://i.imgur.com/AtpsQGf.png)
