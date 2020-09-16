@@ -4,7 +4,7 @@ require "json"
 class PixabayService
   def self.get_image(keywords)
     json = JSON.parse(response(keywords).body, symbolize_names: true)
-    json[:hits][0]
+    json[:hits][rand(0..19)]
   end
 
   private
